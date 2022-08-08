@@ -3,13 +3,13 @@ import './Pagination.css';
 
 export type Props = {
   currentPage: number;
-  maxPage: number;
+  lastPage: number;
   setCurrentPage: (page: number) => void;
 };
 
 export default function Pagination({
   currentPage,
-  maxPage,
+  lastPage,
   setCurrentPage,
 }: Props) {
   const pageNums = [1, 2, 3];
@@ -36,7 +36,7 @@ export default function Pagination({
       ))}
       <PageLink
         href="#"
-        disabled={currentPage === maxPage}
+        disabled={currentPage === lastPage}
         onClick={() => setCurrentPage(currentPage + 1)}
       >
         Next

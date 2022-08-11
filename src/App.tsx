@@ -4,7 +4,7 @@ import './App.css';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState(1);
-  const lastPage = 3;
+  const lastPage = 20;
 
   return (
     <div className="container">
@@ -12,6 +12,7 @@ export default function App() {
       <Pagination
         currentPage={currentPage}
         lastPage={lastPage}
+        maxLength={7}
         setCurrentPage={setCurrentPage}
       />
     </div>

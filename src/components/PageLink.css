@@ -27,9 +27,14 @@
   margin-left: -1px;
 }
 
-.page-link:hover {
+.page-link:hover,
+.page-link:focus {
   color: #0a58ca;
   background-color: #e9ecef;
+}
+
+.page-link:focus {
+  z-index: 3;
 }
 
 .page-link.active {

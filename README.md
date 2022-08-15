@@ -1,6 +1,6 @@
 # React TypeScript Pagination
 
-[![CI/CD](https://github.com/dominicarrojado/react-typescript-pagination/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/react-typescript-pagination/actions/workflows/ci.yml)
+[![CI/CD](https://github.com/dominicarrojado/react-typescript-pagination/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/react-typescript-pagination/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/dominicarrojado/react-typescript-pagination/branch/main/graph/badge.svg?token=8VNMA305O3)](https://codecov.io/gh/dominicarrojado/react-typescript-pagination)
 
 A pagination component bootstrapped with [Create React App](https://github.com/facebook/create-react-app) + [TypeScript](https://www.typescriptlang.org/).
 

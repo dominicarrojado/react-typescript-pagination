@@ -41,5 +41,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": ".",
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/index.tsx",
+      "/src/reportWebVitals.ts"
+    ]
   }
 }

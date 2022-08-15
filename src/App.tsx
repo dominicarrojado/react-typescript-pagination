@@ -15,6 +15,11 @@ export default function App() {
         maxLength={7}
         setCurrentPage={setCurrentPage}
       />
+      <footer className="footer">
+        <a href="https://dominicarrojado.com/posts/how-to-create-your-own-pagination-in-react-and-typescript-with-tests-part-1/">
+          Learn how to build this pagination component in React and TypeScript
+        </a>
+      </footer>
     </div>
   );
 }
